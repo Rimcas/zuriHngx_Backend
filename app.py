@@ -15,11 +15,13 @@ def get_info():
 
     # Create a JSON response with specific information
     response_data = {
-        'Slack_name': "rimcas",
+        'Slack_name': "CASMIR",
         "current_day": "Tuesday",
         "utc_time": "2023-09-21T15:06:05Z",
-        'Track': 'Backend',
-         "status_code": 200,
+        "Track": 'Backend',
+        "github_file_url": 'https://github.com/Rimcas/zuriHngx_Backend/blob/main/app.py',
+        "github_repo_url": 'https://github.com/Rimcas/zuriHngx_Backend',
+        "status_code": 200,
     }
 
     return jsonify(response_data)
